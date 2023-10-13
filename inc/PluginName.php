@@ -11,7 +11,7 @@ class PluginName {
     function run() {
         TextDomain::load();
 
-        // admin or front
+        // load admin or front depending on the context
         if (is_admin()) {
             $admin = new Admin();
             $admin->init();
@@ -20,7 +20,7 @@ class PluginName {
             $front->init();
         }
 
-        // common
-        new HappyForms();
+        // common logic of admin and front go here
+        // ................
     }
 }

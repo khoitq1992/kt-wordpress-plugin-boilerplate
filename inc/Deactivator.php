@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Deactivator contains code that will run when the plugin is deactivated
+ */
+
 namespace PluginName;
 
 class Deactivator {

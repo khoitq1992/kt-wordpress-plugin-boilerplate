@@ -1,4 +1,7 @@
 <?php
+/**
+ * Activator contains code that will run when the plugin is activated
+ */
 
 namespace PluginName;
 

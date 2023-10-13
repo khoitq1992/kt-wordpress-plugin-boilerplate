@@ -6,7 +6,7 @@
  * @package           Plugin Name
  *
  * Plugin Name:       Plugin Name
- * Description:       Extends the Pamperme plugin with additional features.
+ * Description:       Plugin description
  * Version:           1.0.0
  * Author:            Khoi Tran
  * License:           GPL-2.0+
@@ -27,7 +27,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Currently plugin version.
  */
-define( 'PAMPERME_EXT_VERSION', '1.0.0' );
+define( 'PLUGIN_NAME_VERSION', '1.0.0' );
 
 /**
  * Require the constants file

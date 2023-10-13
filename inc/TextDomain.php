@@ -1,4 +1,7 @@
 <?php 
+/**
+ * This class is responsible for loading the text domain
+ */
 
 namespace PluginName;
 
